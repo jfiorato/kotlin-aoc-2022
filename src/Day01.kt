@@ -28,7 +28,6 @@ fun main() {
     // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day01_test")
     check(part1(testInput) == 24000)
-    println(part2(testInput))
     check(part2(testInput) == 45000)
 
     val input = readInput("Day01")
